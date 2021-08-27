@@ -13,6 +13,7 @@
 		1649E32526D95BCF00293BE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1649E32426D95BCF00293BE7 /* main.m */; };
 		1649E33026D95BCF00293BE7 /* TrackMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1649E32F26D95BCF00293BE7 /* TrackMixTests.m */; };
 		1649E33B26D95BCF00293BE7 /* TrackMixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1649E33A26D95BCF00293BE7 /* TrackMixUITests.m */; };
+		1649E34D26D96A8800293BE7 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 1649E34C26D96A8800293BE7 /* Track.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		1649E33626D95BCF00293BE7 /* TrackMixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1649E33A26D95BCF00293BE7 /* TrackMixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixUITests.m; sourceTree = "<group>"; };
 		1649E33C26D95BCF00293BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1649E34B26D96A8800293BE7 /* Track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		1649E34C26D96A8800293BE7 /* Track.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				1649E32326D95BCF00293BE7 /* Info.plist */,
 				1649E32426D95BCF00293BE7 /* main.m */,
 				1649E32626D95BCF00293BE7 /* TrackMix.entitlements */,
+				1649E34B26D96A8800293BE7 /* Track.h */,
+				1649E34C26D96A8800293BE7 /* Track.m */,
 			);
 			path = TrackMix;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1649E34D26D96A8800293BE7 /* Track.m in Sources */,
 				1649E32526D95BCF00293BE7 /* main.m in Sources */,
 				1649E31D26D95BCA00293BE7 /* AppDelegate.m in Sources */,
 			);
